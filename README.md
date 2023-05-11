@@ -4,6 +4,12 @@
 ## Overview
 This repository contains scripts and tools for setting up a Twitter data pipeline to retrieve tweets, perform transformations using Apache Spark, and store the data in HDFS. Additionally, a data warehouse is created using Hive with dimension and fact tables for further analysis and insights.
 
+## Tools and Technology Used
+- Python 3
+- Apache Spark (PySpark)
+- Hive
+- HDFS
+
 ## Twitter Listener
 The first step in the pipeline is a script that connects to the Twitter API and retrieves recent tweets based on a given search query. In this project, the topic of interest is "Cleopatra." The script makes a GET request to retrieve the relevant data and converts it to a JSON object. The data is then sent to the socket for further processing.
 
